@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Game</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #dbdbdb;
+      padding: 20px;
+    }
+
+    .player {
+      margin-bottom: 20px;
+    }
+
+    .player-name {
+      font-weight: normal;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 6px;
+    }
+
+    .card {
+      width: 36px;
+      height: 36px;
+      background-color: #b4b0b082;
+      border: 1px solid #6c6c6c;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: normal;
+      box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    }
+
+    .red {
+      color: red;
+    }
+
+    .black {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player">
+    <div class="player-name">Player 1:</div>
+    <div class="cards">
+      <div class="card black">2♣</div>
+      <div class="card red">9♥</div>
+      <div class="card red">6♥</div>
+      <div class="card red">A♦</div>
+      <div class="card black">Q♠</div>
+      <div class="card black">J♣</div>
+    </div>
+  </div>
+
+  <div class="player">
+    <div class="player-name">Player 2:</div>
+    <div class="cards">
+      <div class="card red">3♥</div>
+      <div class="card black">A♣</div>
+      <div class="card black">10♣</div>
+      <div class="card red">K♦</div>
+      <div class="card black">8♣</div>
+      <div class="card red">3♥</div>
+    </div>
+  </div>
+
+</body>
+</html>
